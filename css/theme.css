@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Kurale&family=Montserrat:wght@200;400;600&display=swap");
+
+:root {
+  --heading-font: "Kurale", serif;
+  --content-font: "Montserrat", sans-serif;
+  --color-black: #001514;
+  --color-peach: #f3dfbf;
+  --color-pink:#957186;
+  --color-white:#fff;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+}
+
+body {
+  font-family: var(--content-font);
+}
