@@ -1,0 +1,26 @@
+main img {
+  margin-top: 15px;
+}
+
+.first {
+  margin-top: 15px;
+}
+
+.second {
+  color: var(--color-pink);
+}
+
+main p {
+  margin: 10px 0;
+}
+
+@media (min-width: 768px) {
+  main {
+    display: flex;
+  }
+
+  main p {
+    margin: 20px 0;
+    width: 80%;
+  }
+}

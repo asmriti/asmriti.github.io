@@ -1,13 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Kurale&family=Montserrat:wght@200;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&family=Ruluko&display=swap");
 
 :root {
-  --heading-font: "Kurale", serif;
+  --heading-font: "Ruluko", serif;
   --content-font: "Montserrat", sans-serif;
   --color-black: #001514;
   --color-peach: #f3dfbf;
-  --color-pink:#957186;
-  --color-white:#fff;
-
+  --color-pink: #957186;
+  --color-white: #fff;
 }
 
 h1,
@@ -21,4 +20,17 @@ h6 {
 
 body {
   font-family: var(--content-font);
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+a:hover {
+  color: var(--color-pink);
 }
