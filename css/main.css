@@ -1,5 +1,8 @@
 main img {
   margin-top: 15px;
+  border-radius: 50%;
+  position: relative;
+  animation: image-animation 1.5s ease-in-out;
 }
 
 .first {
@@ -22,5 +25,20 @@ main p {
   main p {
     margin: 20px 0;
     width: 80%;
+  }
+
+  main .title {
+    padding: 60px;
+  }
+}
+
+@keyframes image-animation {
+  from {
+    opacity: 0;
+    top: 100px;
+  }
+  to {
+    opacity: 1;
+    top: 0;
   }
 }

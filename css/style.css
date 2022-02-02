@@ -19,7 +19,6 @@ header {
 
 img {
   max-width: 100%;
-  border-radius: 50%;
 }
 
 button {
@@ -31,4 +30,21 @@ button {
   cursor: pointer;
   font-family: var(--content-font);
   font-size: 16px;
+}
+
+.fab {
+  font-size: 25px;
+  margin-top: 15px;
+  padding: 5px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  header {
+    padding-left: 60px;
+  }
 }
