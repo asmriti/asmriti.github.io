@@ -19,6 +19,7 @@ header {
 
 img {
   max-width: 100%;
+  border-radius: 50%;
 }
 
 button {
@@ -28,4 +29,6 @@ button {
   border-color: transparent;
   color: var(--color-peach);
   cursor: pointer;
+  font-family: var(--content-font);
+  font-size: 16px;
 }
