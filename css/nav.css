@@ -20,6 +20,14 @@ nav ul li a {
   color: white;
 }
 
+nav ul {
+  text-align: center;
+}
+
+nav ul li a:hover {
+  color: black;
+}
+
 .border {
   margin: 20px;
 }

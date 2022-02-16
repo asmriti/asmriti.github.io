@@ -6,10 +6,10 @@
 .projects-section .project-title {
   text-align: center;
   font-weight: bolder;
-  background-color:var(--color-pink);
-  color:white;
-  padding:5px;
-  margin-top:10px;
+  background-color: var(--color-pink);
+  color: white;
+  padding: 5px;
+  margin-top: 10px;
 }
 
 @media (min-width: 768px) {
