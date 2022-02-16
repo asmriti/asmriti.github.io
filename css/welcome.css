@@ -12,15 +12,19 @@
 }
 
 .title {
-  margin: 155px 0px 0px 30px;
+  margin: 6.75em 0px 0px 30px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .welcome-section {
     display: flex;
   }
 
   .title {
     margin: 58px 0px 0px 30px;
+  }
+
+  .img-des{
+    margin-top:60px;
   }
 }

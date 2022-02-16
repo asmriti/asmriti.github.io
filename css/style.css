@@ -9,9 +9,6 @@ body {
   box-sizing: border-box;
 }
 
-header {
-  padding: 10px;
-}
 
 .first,
 .second {
@@ -41,8 +38,4 @@ button {
 
 
 
-@media (min-width: 768px) {
-  header {
-    padding-left: 60px;
-  }
-}
+
