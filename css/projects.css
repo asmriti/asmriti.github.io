@@ -1,0 +1,20 @@
+.projects-section h2 {
+  margin: 10px 0px;
+  color: var(--color-pink);
+}
+
+.projects-section .project-title {
+  text-align: center;
+  font-weight: bolder;
+  background-color:var(--color-pink);
+  color:white;
+  padding:5px;
+  margin-top:10px;
+}
+
+@media (min-width: 768px) {
+  .projects-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,22 @@
+.socials {
+  display: flex;
+  justify-content: center;
+}
+
+.media {
+  color: #4a3e37;
+}
+
+.center-button{
+  text-align: center;
+  margin-top:10px;
+}
+
+.socials a i:hover{
+  color:var(--color-pink);
+}
+
+.contact-section h2{
+  color:var(--color-pink);
+  margin: 10px 0px;
+}

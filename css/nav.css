@@ -1,9 +1,12 @@
 nav {
   display: flex;
   justify-content: space-around;
+  position: fixed;
   margin-top: 10px;
+  padding:0px 81px;
   border-bottom: 3px solid var(--color-pink);
   border-top: 3px solid var(--color-pink);
+  background-color: var(--color-pink);
 }
 
 nav ul li {
@@ -11,4 +14,12 @@ nav ul li {
   display: inline-block;
   padding: 5px;
   font: inherit;
+}
+
+nav ul li a {
+  color: white;
+}
+
+.border {
+  margin: 20px;
 }

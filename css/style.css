@@ -1,5 +1,6 @@
 body {
   padding: 15px;
+  background-color: #EEEEEE;
 }
 
 * {
@@ -38,10 +39,7 @@ button {
   padding: 5px;
 }
 
-.socials {
-  display: flex;
-  justify-content: center;
-}
+
 
 @media (min-width: 768px) {
   header {

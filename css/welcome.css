@@ -1,0 +1,26 @@
+.welcome-section img {
+  border-radius: 50%;
+  margin-top: 15px;
+}
+
+.welcome-section p {
+  margin-top: 10px;
+}
+
+.welcome-section {
+  height: 100vh;
+}
+
+.title {
+  margin: 155px 0px 0px 30px;
+}
+
+@media (min-width: 768px) {
+  .welcome-section {
+    display: flex;
+  }
+
+  .title {
+    margin: 58px 0px 0px 30px;
+  }
+}

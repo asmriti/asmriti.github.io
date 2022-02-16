@@ -12,16 +12,23 @@
     ></script>
   </head>
   <body>
-    <header class="text-bold">portfolio</header>
+    
 
-    <nav>
-      <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">About</a></li>
+    <!-- NAV START -->
+
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li><a href="#welcome-section">Home</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-    <main>
+
+    <!-- NAV END -->
+
+    <!-- WELCOME SECTION -->
+
+    <section id="welcome-section" class="welcome-section">
       <div class="title">
         <h1>
           <span class="first">Hi! I Am</span>
@@ -32,22 +39,112 @@
           best way to get to know me is to spend some time with me over a cup of
           tea, but this is also a good start.
         </p>
-        <button>Send E-mail</button>
       </div>
+
       <div class="img-des">
         <img src="myyphoto.jpg" alt="beautyy" class="image" />
       </div>
-    </main>
-    <div class="socials">
-      <a href="https://www.instagram.com/s.smritiii/"
-        ><i class="fab fa-instagram-square"></i>
-      </a>
-      <a href="https://twitter.com/smyx00">
-        <i class="fab fa-twitter-square"></i>
-      </a>
-      <a href="https://www.facebook.com/smritii.aryal">
-        <i class="fab fa-facebook"></i
-      ></a>
-    </div>
+    </section>
+
+    <!-- WELCOME SECTION END -->
+
+    <!-- PROJECT SECTION START -->
+
+    <section id="projects" class="projects-section">
+      <h2 class="projects-section-header">My Projects:</h2>
+
+      <div class="projects-flex">
+        <div class="border">
+          <a
+            href="https://asmriti.github.io/Design-Contest/"
+            target="_blank"
+            class="design project-tile"
+          >
+            <img
+              src="image/Screenshot_54.png"
+              alt="design-contest"
+              class="design-contest"
+            />
+            <p class="project-title">Design Contest</p>
+          </a>
+        </div>
+
+        <div class="border">
+          <a
+            href="https://codepen.io/smritiaryal/pen/KKyPZBE?editors=1100"
+            target="_blank"
+            class="design project-tile"
+          >
+            <img
+              src="image/Screenshot_56.png"
+              alt="survey-form"
+              class="survey-form"
+            />
+            <p class="project-title">Survey Form</p>
+          </a>
+        </div>
+
+        <div class="border">
+          <a
+            href="https://codepen.io/smritiaryal/pen/jOGgRNp"
+            target="_blank"
+            class="design project-tile"
+          >
+            <img
+              src="image/Screenshot_55.png"
+              alt="tribute-page"
+              class="tribute-page"
+            />
+            <p class="project-title">Tribute page</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT SECTION END -->
+
+    <!-- CONTACT SECTION START -->
+
+    <section id="contact" class="contact-section">
+      <div class="contact-section-header">
+        <h2>Connect with me..</h2>
+      </div>
+
+      <div class="contact-links socials">
+        <a
+          href="https://www.facebook.com/smritii.aryal"
+          id="profile-link"
+          target="_blank"
+        >
+          <i class="fab fa-facebook media"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/s.smritiii/"
+          id="profile-link"
+          target="_blank"
+          ><i class="fab fa-instagram-square media"></i>
+        </a>
+        <a href="https://twitter.com/smyx00" id="profile-link" target="_blank">
+          <i class="fab fa-twitter-square media"></i>
+        </a>
+        <a href="https://github.com/asmriti" id="profile-link" target="_blank"
+          ><i class="fab fa-github media"></i
+        ></a>
+      </div>
+      <div class="center-button">
+        <button>Send E-mail</button>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION END -->
+
+    <!-- FOOTER SECTION START -->
+    <footer>
+      <p>© 2019 | All Rights Reserved</p>
+    </footer>
+
+    <!-- FOOTER SECTION END -->
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
