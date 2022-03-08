@@ -1,6 +1,6 @@
 .welcome-section img {
   border-radius: 50%;
-  margin-top: 15px;
+  margin-top: 66px;
 }
 
 .welcome-section p {
@@ -15,6 +15,12 @@
   margin: 6.75em 0px 0px 30px;
 }
 
+@media (min-width:768px) {
+  .welcome-section img{
+    margin-top: 15px;
+  }
+}
+
 @media (min-width: 1024px) {
   .welcome-section {
     display: flex;
@@ -27,4 +33,5 @@
   .img-des {
     margin-top: 60px;
   }
+
 }
